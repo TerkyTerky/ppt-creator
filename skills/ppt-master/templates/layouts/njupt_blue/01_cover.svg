@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="coverBg" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#042C91"/>
+      <stop offset="1" stop-color="#1E36A4" stop-opacity="0.31"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="trapezoidGrad" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.38"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="url(#coverBg)"/>
+
+  <!-- Decorative concentric circles -->
+  <g id="decoration-rings">
+    <ellipse cx="640" cy="360" rx="420" ry="420" fill="none" stroke="#FFFFFF" stroke-opacity="0.66" stroke-width="1"/>
+    <ellipse cx="640" cy="360" rx="520" ry="520" fill="none" stroke="#FFFFFF" stroke-opacity="0.41" stroke-width="1"/>
+  </g>
+
+  <!-- Decorative floating ellipses -->
+  <g id="decoration-orbs">
+    <ellipse cx="1187" cy="172" rx="45" ry="45" fill="url(#glow1)"/>
+    <ellipse cx="87" cy="493" rx="34" ry="34" fill="url(#glow1)" transform="rotate(169 87 493)"/>
+    <ellipse cx="1081" cy="515" rx="28" ry="28" fill="url(#glow1)" transform="rotate(242 1081 515)"/>
+    <ellipse cx="200" cy="180" rx="19" ry="19" fill="url(#glow1)" transform="rotate(169 200 180)"/>
+  </g>
+
+  <!-- Logo -->
+  <g id="cover-logo">
+    <image href="logo.png" x="461" y="81" width="321" height="81" preserveAspectRatio="none"/>
+  </g>
+
+  <!-- Main title area -->
+  <g id="cover-title-group">
+    <text x="640" y="251" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="80" fill="#FFFFFF" font-weight="bold">{{TITLE}}</text>
+    <text x="640" y="311" text-anchor="middle" font-family="Times New Roman, Microsoft YaHei, sans-serif" font-size="37" fill="#FFFFFF">{{SUBTITLE}}</text>
+  </g>
+
+  <!-- Presenter info with trapezoid accent -->
+  <g id="cover-presenter">
+    <polygon points="566,514 714,514 789,572 491,572" fill="url(#trapezoidGrad)"/>
+    <text x="640" y="549" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#FFFFFF">{{AUTHOR}}</text>
+  </g>
+
+  <!-- Description text -->
+  <text x="379" y="445" font-family="Microsoft YaHei, Source Han Sans SC, sans-serif" font-size="13" fill="#FFFFFF">{{DESCRIPTION}}</text>
+</svg>

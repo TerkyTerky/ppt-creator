@@ -1,4 +1,4 @@
-# Page Layout Template Library (19 Templates)
+# Page Layout Template Library (9 Templates)
 
 Pre-built PPT page layout templates supporting multiple styles and use cases.
 
@@ -17,22 +17,12 @@ Pre-built PPT page layout templates supporting multiple styles and use cases.
 | `academic_defense` | General | Thesis defense, academic presentations, research progress reports, grant applications | `#003366` | Professional, rigorous, research-oriented, clear hierarchy |
 | `ai_ops` | General | Telecom AI operations architecture, IT system overviews, digital transformation proposals, smart infrastructure reports | `#C00000` | Information-dense, structured, modular zoning, telecom/enterprise style |
 | `anthropic` | General | AI tech talks, developer conferences, technical training, product launches | `#D97757` | Tech-forward, professional, modern, conclusion-first |
+| `blue_universal` | General | — | `#042C91` | — |
 | `china_telecom_template` | General | China Telecom related briefings, 政企数字化方案, 转型规划, 内部汇报 | `#C00000` | Authoritative, structured, restrained, enterprise-government hybrid |
 | `google_style` | General | Annual work reports, technical sharing, project showcases, data-driven presentations | `#4285F4` | Professional, modern, clean and restrained, data-driven, generous whitespace |
 | `government_blue` | General | Key project briefings, Five-Year Plan presentations, work summaries, investment promotion, policy interpretation | `#0050B3` | Grand, tech-forward, modern, professional government style |
 | `government_red` | General | Government briefings, policy interpretation, work summaries, project introductions, investment promotion | `#8B0000` | Authoritative, dignified, professional, modern government style |
 | `medical_university` | General | Medical academic reports, case discussions, research presentations, hospital work reports, medical education and training | `#0066B3` | Professional, rigorous, life-affirming, tech-forward, trustworthy |
-| `njupt-defense` | Scenario | — | `#002060` | — |
-| `njupt_general` | General | academic defense, corporate training, general business presentations | `#042C91` | — |
-| `pixel_retro` | General | Tech talks, programming tutorials, game introductions, geek-style showcases | `#0D1117` | Retro gaming, neon cyberpunk, geek tech, 8-bit style |
-| `psychology_attachment` | General | Psychotherapy training, academic lectures, counseling case analysis, professional sharing | `#2E5C8E` | Professional, warm, healing, trustworthy |
-| `中国电建_常规` | General | Engineering project reports, technical proposal presentations, business negotiations, corporate promotion, annual summaries | `#00418D` | Professional, composed, international, state-owned enterprise style |
-| `中国电建_现代` | General | Major engineering reports, international market promotion, technology achievement showcases, high-end business negotiations | `#00418D` | Grand narrative, modern precision, digital tech, international vision |
-| `中汽研_商务` | General | Product certification display, evaluation presentations, technology promotion, high-end business reporting | `#003366` | Modern tech, authoritative & professional, composed & grand |
-| `中汽研_常规` | General | Product certification display, evaluation presentations, technology promotion, business visits | `#004098` | Professional, authoritative, trustworthy, consulting style |
-| `中汽研_现代` | General | Forward-looking technology showcases, strategic releases, high-end business reporting | `#001529` | Futuristic, tech-forward, deep & refined |
-| `招商银行` | General | 交易银行产品介绍、销售收款方案汇报、客户案例拆解、分行培训材料 | `#C8152D` | Brand-consistent, structured, product-focused, refined finance |
-| `重庆大学` | General | Academic defense, research reports, teaching presentations, scholarly exchange | `#006BB7` | Academically grounded · Mountain City charm · Modern minimalism |
 <!-- quick-index:end -->
 
 ## Template Categories

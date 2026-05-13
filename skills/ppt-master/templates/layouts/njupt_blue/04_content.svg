@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <filter id="cardShadow1" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="4" result="offsetBlur"/>
+      <feFlood flood-color="#06398B" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+
+  <!-- Page title -->
+  <text x="640" y="90" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="36" fill="#042C91" font-weight="bold">{{PAGE_TITLE}}</text>
+
+  <!-- Decorative underline -->
+  <rect x="540" y="100" width="200" height="4" rx="2" fill="#06398B" fill-opacity="0.3"/>
+
+  <!-- Card 1 -->
+  <g id="card-1">
+    <rect x="82" y="200" width="340" height="430" rx="12" fill="#FFFFFF" filter="url(#cardShadow1)" stroke="#06398B" stroke-width="2"/>
+    <ellipse cx="252" cy="180" rx="44" ry="44" fill="#06398B" fill-opacity="0.12"/>
+    <ellipse cx="252" cy="180" rx="42" ry="42" fill="#042C91"/>
+    <text x="252" y="189" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold">01</text>
+    <text x="252" y="290" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="28" fill="#06398B" font-weight="bold">{{CARD_1_TITLE}}</text>
+    <line x1="235" y1="310" x2="270" y2="310" stroke="#06398B" stroke-width="4" stroke-linecap="round"/>
+    <text x="252" y="350" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="16" fill="#262626">
+      <tspan x="252" dy="0">{{CARD_1_LINE_1}}</tspan>
+      <tspan x="252" dy="24">{{CARD_1_LINE_2}}</tspan>
+      <tspan x="252" dy="24">{{CARD_1_LINE_3}}</tspan>
+      <tspan x="252" dy="24">{{CARD_1_LINE_4}}</tspan>
+      <tspan x="252" dy="24">{{CARD_1_LINE_5}}</tspan>
+      <tspan x="252" dy="24">{{CARD_1_LINE_6}}</tspan>
+    </text>
+  </g>
+
+  <!-- Card 2 -->
+  <g id="card-2">
+    <rect x="470" y="200" width="340" height="430" rx="12" fill="#FFFFFF" filter="url(#cardShadow1)" stroke="#06398B" stroke-width="2"/>
+    <ellipse cx="640" cy="180" rx="44" ry="44" fill="#06398B" fill-opacity="0.12"/>
+    <ellipse cx="640" cy="180" rx="42" ry="42" fill="#042C91"/>
+    <text x="640" y="189" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold">02</text>
+    <text x="640" y="290" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="28" fill="#06398B" font-weight="bold">{{CARD_2_TITLE}}</text>
+    <line x1="623" y1="310" x2="658" y2="310" stroke="#06398B" stroke-width="4" stroke-linecap="round"/>
+    <text x="640" y="350" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="16" fill="#262626">
+      <tspan x="640" dy="0">{{CARD_2_LINE_1}}</tspan>
+      <tspan x="640" dy="24">{{CARD_2_LINE_2}}</tspan>
+      <tspan x="640" dy="24">{{CARD_2_LINE_3}}</tspan>
+      <tspan x="640" dy="24">{{CARD_2_LINE_4}}</tspan>
+      <tspan x="640" dy="24">{{CARD_2_LINE_5}}</tspan>
+      <tspan x="640" dy="24">{{CARD_2_LINE_6}}</tspan>
+    </text>
+  </g>
+
+  <!-- Card 3 -->
+  <g id="card-3">
+    <rect x="858" y="200" width="340" height="430" rx="12" fill="#FFFFFF" filter="url(#cardShadow1)" stroke="#06398B" stroke-width="2"/>
+    <ellipse cx="1028" cy="180" rx="44" ry="44" fill="#06398B" fill-opacity="0.12"/>
+    <ellipse cx="1028" cy="180" rx="42" ry="42" fill="#042C91"/>
+    <text x="1028" y="189" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold">03</text>
+    <text x="1028" y="290" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="28" fill="#06398B" font-weight="bold">{{CARD_3_TITLE}}</text>
+    <line x1="1011" y1="310" x2="1046" y2="310" stroke="#06398B" stroke-width="4" stroke-linecap="round"/>
+    <text x="1028" y="350" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="16" fill="#262626">
+      <tspan x="1028" dy="0">{{CARD_3_LINE_1}}</tspan>
+      <tspan x="1028" dy="24">{{CARD_3_LINE_2}}</tspan>
+      <tspan x="1028" dy="24">{{CARD_3_LINE_3}}</tspan>
+      <tspan x="1028" dy="24">{{CARD_3_LINE_4}}</tspan>
+      <tspan x="1028" dy="24">{{CARD_3_LINE_5}}</tspan>
+      <tspan x="1028" dy="24">{{CARD_3_LINE_6}}</tspan>
+    </text>
+  </g>
+
+  <!-- Page number -->
+  <text x="640" y="690" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="12" fill="#A5A5A5">{{PAGE_NUM}}</text>
+</svg>

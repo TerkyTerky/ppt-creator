@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <filter id="centerShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="0" result="offsetBlur"/>
+      <feFlood flood-color="#06398B" flood-opacity="0.2" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="nodeShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#06398B" flood-opacity="0.12" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+
+  <!-- Page title -->
+  <text x="640" y="70" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="32" fill="#042C91" font-weight="bold">{{PAGE_TITLE}}</text>
+
+  <!-- Central hub -->
+  <g id="hub-center">
+    <ellipse cx="640" cy="380" rx="180" ry="180" fill="none" stroke="#06398B" stroke-width="1" filter="url(#centerShadow)"/>
+    <ellipse cx="640" cy="380" rx="132" ry="132" fill="#042C91" filter="url(#centerShadow)"/>
+    <text x="640" y="370" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="28" fill="#FFFFFF" font-weight="bold">{{HUB_TITLE_LINE_1}}</text>
+    <text x="640" y="408" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="28" fill="#FFFFFF" font-weight="bold">{{HUB_TITLE_LINE_2}}</text>
+  </g>
+
+  <!-- Node 1 (top) -->
+  <g id="node-1">
+    <ellipse cx="480" cy="215" rx="32" ry="32" fill="#06398B" stroke="#FFFFFF" stroke-width="4" filter="url(#nodeShadow)"/>
+    <text x="480" y="222" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="19" fill="#FFFFFF" font-weight="bold">01</text>
+    <text x="480" y="270" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="22" fill="#06398B" font-weight="bold">{{NODE_1_TITLE}}</text>
+    <text x="480" y="295" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="14" fill="#262626">{{NODE_1_DESC}}</text>
+  </g>
+
+  <!-- Node 2 (right) -->
+  <g id="node-2">
+    <ellipse cx="840" cy="320" rx="32" ry="32" fill="#06398B" stroke="#FFFFFF" stroke-width="4" filter="url(#nodeShadow)"/>
+    <text x="840" y="327" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="19" fill="#FFFFFF" font-weight="bold">02</text>
+    <text x="840" y="375" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="22" fill="#06398B" font-weight="bold">{{NODE_2_TITLE}}</text>
+    <text x="840" y="400" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="14" fill="#262626">{{NODE_2_DESC}}</text>
+  </g>
+
+  <!-- Node 3 (bottom) -->
+  <g id="node-3">
+    <ellipse cx="640" cy="580" rx="32" ry="32" fill="#06398B" stroke="#FFFFFF" stroke-width="4" filter="url(#nodeShadow)"/>
+    <text x="640" y="587" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="19" fill="#FFFFFF" font-weight="bold">03</text>
+    <text x="640" y="635" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="22" fill="#06398B" font-weight="bold">{{NODE_3_TITLE}}</text>
+    <text x="640" y="660" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="14" fill="#262626">{{NODE_3_DESC}}</text>
+  </g>
+
+  <!-- Node 4 (left) -->
+  <g id="node-4">
+    <ellipse cx="380" cy="420" rx="32" ry="32" fill="#06398B" stroke="#FFFFFF" stroke-width="4" filter="url(#nodeShadow)"/>
+    <text x="380" y="427" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="19" fill="#FFFFFF" font-weight="bold">04</text>
+    <text x="300" y="410" text-anchor="end" font-family="Source Han Sans SC, sans-serif" font-size="22" fill="#06398B" font-weight="bold">{{NODE_4_TITLE}}</text>
+    <text x="300" y="435" text-anchor="end" font-family="Source Han Sans SC, sans-serif" font-size="14" fill="#262626">{{NODE_4_DESC}}</text>
+  </g>
+
+  <!-- Page number -->
+  <text x="640" y="700" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="12" fill="#A5A5A5">{{PAGE_NUM}}</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="endingBg" x1="0" y1="0.5" x2="1" y2="0.5">
+      <stop offset="0" stop-color="#B9D3FC"/>
+      <stop offset="0.77" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="endingOverlay" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#042C91"/>
+      <stop offset="1" stop-color="#1E36A4" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="url(#endingOverlay)"/>
+
+  <!-- Decorative elements -->
+  <g id="ending-decoration">
+    <rect x="87" y="267" width="497" height="8" rx="4" fill="url(#endingBg)"/>
+    <rect x="893" y="143" width="396" height="4" rx="2" fill="url(#endingBg)"/>
+
+    <!-- Triangle accents - top right -->
+    <polygon points="805,138 815,151 796,151" fill="#06398B" transform="rotate(90 805 145)"/>
+    <polygon points="836,138 845,151 826,151" fill="#06398B" transform="rotate(90 836 145)"/>
+    <polygon points="866,138 875,151 856,151" fill="#06398B" transform="rotate(90 866 145)"/>
+
+    <!-- Triangle accents - bottom left -->
+    <polygon points="98,527 109,549 86,549" fill="#06398B" transform="rotate(90 98 538)"/>
+    <polygon points="135,527 147,549 124,549" fill="#06398B" transform="rotate(90 135 538)"/>
+    <polygon points="173,527 185,549 162,549" fill="#06398B" transform="rotate(90 173 538)"/>
+    <rect x="201" y="535" width="383" height="6" rx="3" fill="url(#endingBg)"/>
+
+    <!-- Floating ellipses -->
+    <ellipse cx="71" cy="651" rx="83" ry="76" fill="#FFFFFF" fill-opacity="0.1"/>
+    <ellipse cx="94" cy="164" rx="51" ry="53" fill="#FFFFFF" fill-opacity="0.1"/>
+  </g>
+
+  <!-- Main text -->
+  <g id="ending-text">
+    <text x="92" y="359" font-family="Source Han Sans SC, sans-serif" font-size="80" fill="#FFFFFF" font-weight="bold">{{THANK_YOU}}</text>
+    <text x="92" y="472" font-family="Source Han Sans SC, sans-serif" font-size="80" fill="#FFFFFF" font-weight="bold">{{ENDING_SUBTITLE}}</text>
+  </g>
+
+  <!-- Contact info -->
+  <text x="92" y="560" font-family="Source Han Sans SC, sans-serif" font-size="24" fill="#B9D3FC">{{CONTACT_INFO}}</text>
+
+  <!-- Logo -->
+  <image href="logo.png" x="985" y="19" width="267" height="67" preserveAspectRatio="none"/>
+</svg>

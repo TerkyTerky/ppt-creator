@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="4" result="offsetBlur"/>
+      <feFlood flood-color="#06398B" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+
+  <!-- Page title -->
+  <text x="80" y="70" font-family="Source Han Sans SC, sans-serif" font-size="32" fill="#042C91" font-weight="bold">{{PAGE_TITLE}}</text>
+  <rect x="80" y="82" width="180" height="4" rx="2" fill="#06398B" fill-opacity="0.3"/>
+
+  <!-- Chart area -->
+  <g id="chart-area">
+    <rect x="63" y="130" width="570" height="500" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="83" y="150" width="530" height="460" fill="none" stroke="#D0CECE" stroke-width="1" stroke-dasharray="4,4" rx="4"/>
+    <text x="348" y="390" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="16" fill="#A5A5A5">{{CHART_PLACEHOLDER}}</text>
+    <text x="348" y="125" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="18" fill="#06398B" font-weight="bold">{{CHART_TITLE}}</text>
+  </g>
+
+  <!-- Analysis card 1 -->
+  <g id="analysis-1">
+    <rect x="668" y="130" width="533" height="230" rx="12" fill="#F2F2F2" filter="url(#cardShadow)"/>
+    <rect x="687" y="114" width="171" height="40" rx="7" fill="#042C91"/>
+    <text x="772" y="140" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#FFFFFF">{{ANALYSIS_1_LABEL}}</text>
+    <text x="694" y="190" font-family="Microsoft YaHei Light, sans-serif" font-size="21" fill="#000000">
+      <tspan x="694" dy="0">{{ANALYSIS_1_LINE_1}}</tspan>
+      <tspan x="694" dy="26">{{ANALYSIS_1_LINE_2}}</tspan>
+      <tspan x="694" dy="26">{{ANALYSIS_1_LINE_3}}</tspan>
+    </text>
+  </g>
+
+  <!-- Analysis card 2 -->
+  <g id="analysis-2">
+    <rect x="668" y="390" width="533" height="230" rx="12" fill="#F2F2F2" filter="url(#cardShadow)"/>
+    <rect x="687" y="374" width="171" height="40" rx="7" fill="#042C91"/>
+    <text x="772" y="400" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#FFFFFF">{{ANALYSIS_2_LABEL}}</text>
+    <text x="694" y="450" font-family="Microsoft YaHei Light, sans-serif" font-size="21" fill="#000000">
+      <tspan x="694" dy="0">{{ANALYSIS_2_LINE_1}}</tspan>
+      <tspan x="694" dy="26">{{ANALYSIS_2_LINE_2}}</tspan>
+      <tspan x="694" dy="26">{{ANALYSIS_2_LINE_3}}</tspan>
+    </text>
+  </g>
+
+  <!-- Page number -->
+  <text x="640" y="700" text-anchor="middle" font-family="Source Han Sans SC, sans-serif" font-size="12" fill="#A5A5A5">{{PAGE_NUM}}</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="chapterBg" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#042C91"/>
+      <stop offset="1" stop-color="#1E36A4" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="arcGrad" x1="0.16" y1="1.09" x2="0.84" y2="-0.09">
+      <stop offset="0.24" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="url(#chapterBg)"/>
+
+  <!-- Decorative circle and arc (right side) -->
+  <g id="chapter-decoration">
+    <ellipse cx="967" cy="351" rx="224" ry="224" fill="#FFFFFF" fill-opacity="0.15" stroke="#031C46" stroke-width="1"/>
+    <rect x="759" y="143" width="416" height="416" fill="url(#arcGrad)" transform="rotate(322.5 967 351)"/>
+  </g>
+
+  <!-- Chapter number -->
+  <g id="chapter-number-group">
+    <text x="389" y="259" text-anchor="middle" font-family="Microsoft YaHei, Source Han Sans SC, sans-serif" font-size="43" fill="#FFFFFF" font-weight="bold">{{CHAPTER_NUM}}</text>
+  </g>
+
+  <!-- Chapter title -->
+  <text x="179" y="366" font-family="Source Han Serif CN Heavy, Source Han Sans SC, sans-serif" font-size="80" fill="#FFFFFF" font-weight="bold">{{CHAPTER_TITLE}}</text>
+
+  <!-- Divider line -->
+  <line x1="168" y1="428" x2="610" y2="428" stroke="#FFFFFF" stroke-width="1.7"/>
+
+  <!-- Bullet points -->
+  <g id="chapter-bullets">
+    <text x="125" y="480" font-family="Source Han Serif CN Heavy, Source Han Sans SC, sans-serif" font-size="13" fill="#FFFFFF" letter-spacing="8">{{CHAPTER_DESC_1}}</text>
+    <text x="329" y="480" font-family="Source Han Serif CN Heavy, Source Han Sans SC, sans-serif" font-size="13" fill="#FFFFFF" letter-spacing="8">{{CHAPTER_DESC_2}}</text>
+    <text x="533" y="480" font-family="Source Han Serif CN Heavy, Source Han Sans SC, sans-serif" font-size="13" fill="#FFFFFF" letter-spacing="8">{{CHAPTER_DESC_3}}</text>
+  </g>
+
+  <!-- Logo -->
+  <image href="logo.png" x="985" y="19" width="267" height="67" preserveAspectRatio="none"/>
+</svg>

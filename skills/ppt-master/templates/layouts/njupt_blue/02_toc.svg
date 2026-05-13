@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="tocBg" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0.33" stop-color="#042C91"/>
+      <stop offset="1" stop-color="#1E36A4" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="arcGrad" x1="0.16" y1="1.09" x2="0.84" y2="-0.09">
+      <stop offset="0.24" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="url(#tocBg)"/>
+
+  <!-- Decorative circle and arc -->
+  <g id="toc-decoration">
+    <ellipse cx="326" cy="344" rx="224" ry="224" fill="#FFFFFF" fill-opacity="0.15" stroke="#031C46" stroke-width="1"/>
+    <rect x="118" y="136" width="416" height="416" fill="url(#arcGrad)" transform="rotate(322.5 326 344)"/>
+  </g>
+
+  <!-- CONTENTS title -->
+  <text x="225" y="409" font-family="Source Han Serif CN Heavy, Source Han Sans SC, sans-serif" font-size="43" fill="#FFFFFF" font-weight="bold">{{TOC_TITLE}}</text>
+
+  <!-- TOC items: 01-04 -->
+  <g id="toc-item-1">
+    <ellipse cx="752" cy="175" rx="42" ry="42" fill="#FFFFFF" fill-opacity="0.39"/>
+    <text x="752" y="183" text-anchor="middle" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="37" fill="#FFFFFF">01</text>
+    <polygon points="824,169 836,182 812,182" fill="#FFFFFF" fill-opacity="0.39" transform="rotate(90 824 175)"/>
+    <text x="839" y="166" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">{{TOC_ITEM_1_TITLE}}</text>
+    <text x="844" y="205" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="16" fill="#FFFFFF">{{TOC_ITEM_1_DESC}}</text>
+  </g>
+
+  <g id="toc-item-2">
+    <ellipse cx="752" cy="290" rx="42" ry="42" fill="#FFFFFF" fill-opacity="0.39"/>
+    <text x="752" y="297" text-anchor="middle" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="37" fill="#FFFFFF">02</text>
+    <polygon points="824,284 836,297 812,297" fill="#FFFFFF" fill-opacity="0.39" transform="rotate(90 824 290)"/>
+    <text x="839" y="280" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">{{TOC_ITEM_2_TITLE}}</text>
+    <text x="844" y="319" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="16" fill="#FFFFFF">{{TOC_ITEM_2_DESC}}</text>
+  </g>
+
+  <g id="toc-item-3">
+    <ellipse cx="752" cy="404" rx="42" ry="42" fill="#FFFFFF" fill-opacity="0.39"/>
+    <text x="752" y="411" text-anchor="middle" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="37" fill="#FFFFFF">03</text>
+    <polygon points="824,398 836,411 812,411" fill="#FFFFFF" fill-opacity="0.39" transform="rotate(90 824 404)"/>
+    <text x="839" y="395" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">{{TOC_ITEM_3_TITLE}}</text>
+    <text x="844" y="433" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="16" fill="#FFFFFF">{{TOC_ITEM_3_DESC}}</text>
+  </g>
+
+  <g id="toc-item-4">
+    <ellipse cx="752" cy="518" rx="42" ry="42" fill="#FFFFFF" fill-opacity="0.39"/>
+    <text x="752" y="525" text-anchor="middle" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="37" fill="#FFFFFF">04</text>
+    <polygon points="824,512 836,525 812,525" fill="#FFFFFF" fill-opacity="0.39" transform="rotate(90 824 518)"/>
+    <text x="839" y="509" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">{{TOC_ITEM_4_TITLE}}</text>
+    <text x="844" y="547" font-family="Source Han Serif CN SemiBold, Source Han Sans SC, sans-serif" font-size="16" fill="#FFFFFF">{{TOC_ITEM_4_DESC}}</text>
+  </g>
+
+  <!-- Logo -->
+  <image href="logo.png" x="985" y="19" width="267" height="67" preserveAspectRatio="none"/>
+</svg>
