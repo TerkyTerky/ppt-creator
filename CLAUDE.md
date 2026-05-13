@@ -41,6 +41,9 @@ PPT Master is an AI-driven presentation generation system. Multi-role collaborat
 Convenience summary only — full workflow in [`skills/ppt-master/SKILL.md`](skills/ppt-master/SKILL.md).
 
 ```bash
+# environment selection
+conda activate ppt
+
 # Source content conversion
 python3 skills/ppt-master/scripts/source_to_md/pdf_to_md.py <PDF_file>
 python3 skills/ppt-master/scripts/source_to_md/doc_to_md.py <DOCX_or_other_file>
