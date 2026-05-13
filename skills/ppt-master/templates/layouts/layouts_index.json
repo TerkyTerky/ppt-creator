@@ -1,0 +1,77 @@
+{
+  "academic_defense": {
+    "summary": "Thesis defense, academic presentations, research progress reports, grant applications.",
+    "keywords": [
+      "Professional",
+      "rigorous",
+      "research-oriented",
+      "clear hierarchy"
+    ]
+  },
+  "ai_ops": {
+    "summary": "Telecom AI operations architecture, IT system overviews, digital transformation proposals, smart infrastructure reports.",
+    "keywords": [
+      "Information-dense",
+      "structured",
+      "modular zoning",
+      "telecom",
+      "enterprise style"
+    ]
+  },
+  "anthropic": {
+    "summary": "AI tech talks, developer conferences, technical training, product launches.",
+    "keywords": [
+      "Tech-forward",
+      "professional",
+      "modern",
+      "conclusion-first"
+    ]
+  },
+  "china_telecom_template": {
+    "summary": "China Telecom related briefings, 政企数字化方案, 转型规划, 内部汇报.",
+    "keywords": [
+      "Authoritative",
+      "structured",
+      "restrained",
+      "enterprise-government hybrid"
+    ]
+  },
+  "google_style": {
+    "summary": "Annual work reports, technical sharing, project showcases, data-driven presentations.",
+    "keywords": [
+      "Professional",
+      "modern",
+      "clean and restrained",
+      "data-driven",
+      "generous whitespace"
+    ]
+  },
+  "government_blue": {
+    "summary": "Key project briefings, Five-Year Plan presentations, work summaries, investment promotion, policy interpretation.",
+    "keywords": [
+      "Grand",
+      "tech-forward",
+      "modern",
+      "professional government style"
+    ]
+  },
+  "government_red": {
+    "summary": "Government briefings, policy interpretation, work summaries, project introductions, investment promotion.",
+    "keywords": [
+      "Authoritative",
+      "dignified",
+      "professional",
+      "modern government style"
+    ]
+  },
+  "medical_university": {
+    "summary": "Medical academic reports, case discussions, research presentations, hospital work reports, medical education and training.",
+    "keywords": [
+      "Professional",
+      "rigorous",
+      "life-affirming",
+      "tech-forward",
+      "trustworthy"
+    ]
+  }
+}
